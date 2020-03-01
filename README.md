@@ -37,3 +37,16 @@ We test using NaiveBayes sklearn lib in file hw_1_Lib_NaiveBayes.py
 This file used for fig generation.
 
 8. result_Final.txt file contain the output log of all results.
+
+Multiple Classifier Output
+===========================
+9. hw_1_data_set_check_multiple_topic.py 
+Using this we check is there any multiple topic is labeled in dataset or not.
+However, we cannot find any multiple labeled data in dataset.
+So we use probability distribution for multiple classifier.
+Since the dataset does not contain multiple label, the performance evaluation is based on labeled only. 
+Accuracy score:  0.829612220917 
+
+10. hw_1_NaiveBayes_Multiple_Output.py
+All 10 classifier for all 10 types of topics.
+output_final_1.txt contains the testing output for 10 classifier.
